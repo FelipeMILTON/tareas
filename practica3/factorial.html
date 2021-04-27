@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>factorial</title>
+    <link rel="stylesheet" href="factorial.css">
+</head>
+<body>
+    <div>
+        <input type="text" id="ingresanumero"/>
+    <br> <br>
+    <button type="button" onclick="Calcularfactorial()">CALCULAR FACTORIAL</button>
+    <br> <br>
+    <label id="textresultado"></label>
+    <br> <br>
+
+    </div>
+    
+
+    
+    <script>
+        function Calcularfactorial(){
+            var numero=document.getElementById('ingresanumero').value;
+            var resultado=1;
+            for (var i=1; i<=numero; i++){
+                resultado=resultado*i;
+            }
+            document.getElementById('textresultado').innerHTML= 'el factorial es:   ' + resultado;
+           
+        
+           
+           
+        }
+    </script>
+    
+</body>
+</html>
