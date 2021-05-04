@@ -80,7 +80,7 @@ header{
 
 }
 .titulo{
-    font-size: 60px;
+    S
     margin-bottom: 15px;
 
 }
@@ -136,13 +136,16 @@ header{
     background: #f2f2f2;
 
 }
+
+
 .contenedor-galeria{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    
 
 }
-.imagenes-galeria{
+.img-galeria{
     object-fit: cover;
     width: 30%;
     display: block;

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pug Carlino</title>
     <link rel="stylesheet" href="estilospug.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="proyectoPug/estilospug.css">
@@ -15,18 +15,16 @@
     <header class="header" id="inicio">
         <img src="imagenes/menu.svg" alt="" class="menu">
         <nav class="menudenavegacion spread">
-            <a href="inicio">Inicio</a>
-            <a href="servicio">Servicio</a>
-            <a href="portafolio">Portafolio</a>
-            <a href="expertos">Expertos</a>
-            <a href="contacto">Contacto</a>
+            <a class="menu-iten" data-url="inicio" href="inicio">Inicio</a>
+            <a class="menu-iten" data-url="service" href="servicio">Servicio</a>
+            <a class="menu-iten" data-url="galeria" href="portafolio">Galeria</a>
+            <a class="menu-iten" data-url="expertos" href="expertos">Expertos</a>
+            <a class="menu-iten" data-url="contacto" href="contacto">Contacto</a>
         </nav>
         <div class="contenedor head">
             <h1 class="titulo">MAS QUE UNA MASCOTA</h1>
-            <P class="copy">Lorem ipsum dolor sit, amet ni similique magnam dolorem tenetur ipsam fugiat inventore enim ducimus nant?</P>
-
+            <P class="copy">El amor a una persona es igual a una mascota</P>
         </div>
-        
     </header>
     <main>
         <section class="contenedor" id="servicio">
@@ -35,16 +33,32 @@
                 <img src="imagenes/1ilustre.svg" alt="">
                 <div class="chek-servicio">
                     <div class="service">
-                        <h3 class="n-service"><span class="number">1</span>Diseño Web</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo quidem optio deserunt. Adipisci asperiores distinctio, molestiae vero rem ratione quis.</p>
+                        <h3 class="n-service"><span class="number">1</span>Alimentacion</h3>
+                        <p>Es muy importante para mantener a nuestro a animales de compañía que ingieran una dieta equilibrada que satisfaga sus necesidades energéticas y proporcione los nutrientes adecuados.
+
+                            Lo ideal, tanto para perros como para gatos, es que consuman alimento seco , adaptado a cada etapa de crecimiento y a cada necesidad. Nunca deben consumir alimentos crudos ya que estos podrían ser fuente de enfermedades parasitarias.</p>
                     </div>
                     <div class="service">
-                        <h3 class="n-service"><span class="number">2</span>Diseño Web</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo quidem optio deserunt. Adipisci asperiores distinctio, molestiae vero rem ratione quis.</p>
+                        <h3 class="n-service"><span class="number">2</span>Higiene</h3>
+                        <p>Baño : Los expertos no se ponen de acuerdo en lo relativo a la frecuencia en la que se deben realizar los baños. En general esta no deberá ser inferior a una vez al mes. Algunos autores señalan que se debe hacer cuando lo necesitan, por ejemplo cuando el pelo está sucio. Aunque los gatos suelen ser menos tolerantes que los perros con el baño es posible hacer que el gatito lo acepte y que se acostumbre a ello. Se recomiendan geles especiales para animales de compañía.
+
+                            Cepillado : La mejor manera de mantener su higiene sin alterar su piel es el cepillado diario.
+                            
+                            Oídos : Se deben limpiar con una gasa. Hay productos específicos, se echan en el conducto auditivo y se masajea la zona, procediéndose después al limpiado con la gasa.
+                            
+                            Uñas : En perros que no desgasten bien hay que cortarlas, sobre todo en los espolones. Para los gatos existen en el mercado accesorios para arañar de forma que así los gatos mantienen las uñas en perfecto estado.
+                            
+                            Revisión dental: oprimiendo suavemente la articulación de la boca con los dedos hará que su gato abra la boca y así podrá ver el estado de sus dientes. Los dientes se limpian solos al masticar el pienso seco o morder juguetes especiales. El sarro y el mal aliento han de ser tratados por el veterinario.</p>
                     </div>
                     <div class="service">
-                        <h3 class="n-service"><span class="number">3</span>Diseño Web</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo quidem optio deserunt. Adipisci asperiores distinctio, molestiae vero rem ratione quis.</p>
+                        <h3 class="n-service"><span class="number">3</span>Educacion</h3>
+                        <p>Los perros son animales sociales y jerárquicos: esto significa que necesitan desde cachorros conocer y asumir su “puesto” en la familia y fuera de ella (en el parque, ante la presencia de personas extrañas en casa, en los lugares habituales de paso como la clínica veterinaria, en casas de familiares, etc..)
+
+                            Existe un periodo fundamental en el desarrollo de la conducta denominado “periodo de sensibilización ” que abarca desde las 3 a las 10 semanas y durante el cual el cachorro debe asimilar todo lo que ocurre en su entorno. La socialización del animal hace que acepten mejor a otros animales, tanto de su propia especie como de otras, y la habituación les hace capaces de enfrentarse a los estímulos ambientales que se van a encontrar a lo largo de su vida.
+                            
+                            Les debemos enseñar unas normas de convivencia básicas mediante el aprendizaje de conductas de obediencia muy sencillas. Para ello se debe decir su nombre antes de darle una orden usando una frase corta. Siempre se debe trabajar con refuerzos positivos. Por ejemplo si tira de la correa, acórtele la distancia y prémiele cuando no tire, enséñele el “sit” (sentarse) presionando suavemente su parte trasera y para hacer que se tumbe en el suelo puede apretar su lomo hacia abajo y tirar de sus patas delanteras hacia delante.
+                            
+                            Se deben corregir, además comportamientos indeseables como es la mordida. Para ello sujete el hocico del perro con una mano por encima y ejerza más o menos fuerza según la situación y la raza del perro.</p>
                     </div>
 
                 </div>
@@ -55,12 +69,12 @@
             <div class="contenedor">
                 <h2 class="subtitulo">Galeria</h2>
                 <div class="contenedor-galeria">
-                    <img src="imagenes/uno.jpg" alt="" class="imagenes-galeria">
-                    <img src="imagenes/dos.jpg" alt="" class="imagenes-galeria">
-                    <img src="imagenes/tres.jpg" alt="" class="imagenes-galeria">
-                    <img src="imagenes/cuatro.jpg" alt="" class="imagenes-galeria">
-                    <img src="imagenes/cinco.jpg" alt="" class="imagenes-galeria">
-                    <img src="imagenes/seis.jpg" alt="" class="imagenes-galeria">
+                    <img src="imagenes/uno.jpg" alt="" class="img-galeria">
+                    <img src="imagenes/dos.jpg" alt="" class="img-galeria">
+                    <img src="imagenes/tres.jpg" alt="" class="img-galeria">
+                    <img src="imagenes/cuatro.jpg" alt="" class="img-galeria">
+                    <img src="imagenes/cinco.jpg" alt="" class="img-galeria">
+                    <img src="imagenes/seis.jpg" alt="" class="img-galeria">
                 </div>
             </div>
         </section>
@@ -73,7 +87,7 @@
             <section class="experts">
                 <div>
                     <img src="imagenes/chart.svg" alt="">
-                    <h3 class="n-expert">Analicis</h3>
+                    <h3 class="n-expert">Anality</h3>
                 </div>
                 <div>
                     <img src="imagenes/servicio.svg" alt="">
@@ -95,16 +109,16 @@
                 <p>Amante de los canes PUG</p>
             </div>
             <div class="social">
-                <a href="./" class="social-media-icon">
+                <a href="https://www.facebook.com/milton.felipecz" class="social-media-icon">
                     <i class='bx bxl-facebook' ></i>
                 </a>
-                <a href="./" class="social-media-icon">
+                <a href="https://www.instagram.com/49felipe99/" class="social-media-icon">
                     <i class='bx bxl-instagram' ></i>
                 </a>
-                <a href="./" class="social-media-icon">
+                <a href="https://discord.gg/NJMZymN" class="social-media-icon">
                     <i class='bx bxl-discord'></i>
                 </a>
-                <a href="./" class="social-media-icon">
+                <a href="https://wa.me/qr/UNMZ7O2FNAW3G1" class="social-media-icon">
                     <i class='bx bxl-whatsapp'></i>
                 </a>
             </div>
@@ -117,6 +131,7 @@
 
 
     <script src="stilo.js"></script>
+    <script src="laybox.js"></script>
    
 </body>
 </html>
